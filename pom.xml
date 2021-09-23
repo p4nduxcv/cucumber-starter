@@ -13,4 +13,13 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+<!--    This will indicate Maven which Selenium jar files are to be downloaded from the central repository to the local repository.-->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>2.47.1</version>
+    </dependency>
+
+<!--    -->
+
 </project>
